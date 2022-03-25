@@ -10,7 +10,7 @@ fetch(url)
 
         console.log(json);
 
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 16; i++) {
             var everything = '<div class="article">';
 
             var img_url = articles[i].media[0]['media-metadata'][2].url;

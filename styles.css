@@ -27,15 +27,16 @@ body {
 }
 
 .title {
-    width: 300px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-bottom: 0px;
+    margin-right: 10px;
     font-size: 18px;
 }
 
 .author {
     margin-left: 40px;
     margin-top: 10px;
+    margin-right: 10px;
     color: #6b4d40;
 }
 
@@ -49,4 +50,33 @@ body {
 
 .footer a {
     margin-left: 20px;
+}
+
+
+@media (min-width: 48em) {
+    .header {
+        height: 110px;
+        font-size: 20px;
+    }
+
+    .header h1 {
+        margin-left: 40px;
+    }
+
+    #articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 80px 10px;
+    }
+
+    .article {
+        width: 400px;
+        margin: 0px 20px 10px;
+    }
+
+    .footer {
+        height: 75px;
+    }
 }
